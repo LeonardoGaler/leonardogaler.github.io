@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <style>
+
+body {
+  background-color: #080808;
+	position: relative;
+	justify-content: center;
+	align-content: center;
+  color: white;
+  font-size: 30px;
+	margin: 5%;
+	font-family: Monospace;
+	overflow-wrap: break-word;
+}
+.container {
+	display: grid;
+	gap: 1rem;
+	grid-auto-rows: 33rem;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+
+}
+
+.box {
+      border: 3px solid white;
+      font-size: 30px;
+      text-align: center;
+      border-radius: 5%;
+      opacity: 0.95;
+      height: 25rem;
+      width: 25rem;
+      margin: 5%;
+      text-decoration: none;
+}
+
+.box:hover {
+    background-color: rgba(255,255,255,0.10);
+    transition: 0.3s;
+}
+
+.link {
+    margin:5%;
+    margin-bottom:2rem;
+    color: white;
+        }
+
+.img {
+        width: 15rem;
+        height: 15rem;
+        }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="assets">
+    </head>
+    <body>
+        <h1>"Leonardo Galer"</h1>
+        <h2>"Engineer, linux lover, programmer, looking for and/or developing better development tools"</h2>
+        <div class="container">
+        <a class="box" href="https://github.com/LeonardoGaler?tab=projects">
+        <div class="link">"Projects"</div>
+            <img src="assets/book.svg" alt="www.github.com" class="img"/>
+        </a>
+        <a class="box" href="https://github.com/LeonardoGaler">
+        <div class="link">"GitHub"</div>
+            <img src="assets/github.svg" alt="www.github.com" class="img"/>
+        </a>
+        <a class="box" href="mailto:connect@leonardogaler.com">
+        <div class="link">"Contact me"</div>
+            <img src="assets/network.svg" alt="www.github.com" class="img"/>
+        </a>
+        <a class="box" href="https://www.linkedin.com/in/leonardo-galer-15a971258/">
+        <div class="link">"LinkedIn"</div>
+            <img src="assets/linkedin.svg" alt="www.github.com" class="img"/>
+        </a>
+        </div>
+    </body>
+</html>
